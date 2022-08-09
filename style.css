@@ -27,6 +27,10 @@
   padding: 15px;
   text-align: center;
   box-shadow: -20px -20px 26px #d6e2f0, 20px 20px 26px #a4a4a4;
+  transition: 0.5s;
+}
+.box-card:hover {
+  transform: scale(1.1);
 }
 .col-1 > img {
   width: 320px;
