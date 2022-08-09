@@ -1,0 +1,59 @@
+/* General Styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+/* Header */
+.Container {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(212, 46%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: -20px -20px 26px #d6e2f0, 20px 20px 26px #a4a4a4;
+}
+.col-1 > img {
+  width: 320px;
+  border-radius: 15px;
+}
+.col-2 {
+  padding: 20px 16px 20px;
+}
+
+.col-2 > h1 {
+  font-size: 24px;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 20px;
+}
+
+.col-2 > p {
+  font-size: 17px;
+  color: hsl(220, 15%, 55%);
+}
+@media only screen and (max-width: 424px) {
+  .Container {
+    width: 100%;
+  }
+  .box-card {
+    width: 300px;
+  }
+  .col-1 > img {
+    width: 270px;
+  }
+}
